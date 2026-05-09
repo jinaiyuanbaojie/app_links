@@ -1,3 +1,6 @@
+## 7.0.1
+* chore(Windows): Remove dead code.
+
 ## 7.0.0
 This version focuses on Flutter 3.38 release and especially iOS scene lifecycle breaking changes with few tools for easier customization.
 

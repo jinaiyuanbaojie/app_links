@@ -134,15 +134,6 @@ namespace applinks
 			}
 		}
 
-		if (message == WM_COMMAND)
-		{
-			int wmId = LOWORD(wparam);
-			if (wmId == IDM_GETARGSWAS) {
-				SendAppLink(hwnd);
-			}
-		}
-
-
 		return std::nullopt;
 	}
 
